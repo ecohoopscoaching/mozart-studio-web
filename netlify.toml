@@ -1,0 +1,12 @@
+# Same Next.js app as the Vercel project. Netlify applies its OpenNext
+# adapter automatically for Next.js 13.5 and newer. Do not pin
+# @netlify/plugin-nextjs. Pinning opts this site out of adapter updates.
+# Do not set a static publish directory. The adapter publishes the server build.
+# Free plan only. Do not enable Netlify AI credits or a paid plan.
+
+[build]
+command = "npm run build"
+
+[build.environment]
+NODE_VERSION = "22"
+LIVE_GENERATION = "disabled"
