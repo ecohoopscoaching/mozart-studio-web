@@ -79,6 +79,7 @@ export function createProject(input: {
   artistId?: string;
   producerId?: string;
   now?: string;
+  trackSeeds?: Array<{ purpose?: string; conflict?: string; scenes?: string }>;
 }): Project {
   const now = input.now ?? new Date().toISOString();
   const count = FORMATS[input.format].tracks;
@@ -89,9 +90,9 @@ export function createProject(input: {
     const topic: Topic = {
       ...base,
       arc: ARCS[index] ?? ARCS[0],
-      purpose: `This song ${ARCS[index] ?? "moves the story"}.`,
-      conflict: TURNS[index] ?? TURNS[0],
-      scenes: `Scene ${index + 1}: ${sentence}`,
+      purpose: input.trackSeeds?.[index]?.purpose || `This song ${ARCS[index] ?? "moves the story"}.`,
+      conflict: input.trackSeeds?.[index]?.conflict || TURNS[index] || TURNS[0],
+      scenes: input.trackSeeds?.[index]?.scenes || `Scene ${index + 1}: ${sentence}`,
     };
     return {
       id: newId(),

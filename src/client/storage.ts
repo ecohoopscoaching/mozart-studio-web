@@ -1,6 +1,7 @@
 import type { Project } from "@/domain/types";
 
 export const STORAGE_KEY = "mozart-studio-web.v1";
+export const IDEA_DRAFT_KEY = "mozart-studio-idea-draft";
 
 export function loadProjects(): Project[] {
   if (typeof window === "undefined") return [];

@@ -46,6 +46,17 @@ export interface Topic {
   facts: string;
   avoid: string;
   sourceNotes: string;
+  /** Optional character-inspiration note. Absent on older saved songs. */
+  inspiration?: TopicInspiration;
+}
+
+export interface TopicInspiration {
+  mode: "single" | "collision" | "random";
+  characterIds: string[];
+  concept: string;
+  hook?: string;
+  sourceLabel: "documented-example" | "generated-combination" | "single-character" | "random-inspiration";
+  documentedFlagship?: string;
 }
 
 export interface CreativeBrief {

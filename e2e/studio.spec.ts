@@ -50,6 +50,41 @@ test("instrumental single stays blank", async ({ page }) => {
   await expect(page.getByTestId("prompt")).not.toContainText("Natural human vocal");
 });
 
+test("character idea becomes a single and a collision can plan an EP", async ({ page }) => {
+  await page.goto("/ideas");
+  await expect(page.getByRole("heading", { name: "Find a song idea." })).toBeVisible();
+  const overflow = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth + 2);
+  expect(overflow).toBe(false);
+  await page.keyboard.press("Tab");
+  await page.keyboard.press("Tab");
+  await page.getByRole("button", { name: "One character" }).click();
+  await page.getByLabel("Search characters").fill("Tony");
+  await page.getByRole("button", { name: /Tony Montana/ }).click();
+  await page.getByRole("button", { name: "Make song ideas" }).click();
+  await expect(page.getByText("DEMO sample output")).toBeVisible();
+  await expect(page.getByText("Scores are DEMO heuristic score")).toBeVisible();
+  await page.screenshot({ path: path.join(shots, `${test.info().project.name}-ideas.png`), fullPage: true });
+  await page.getByRole("button", { name: "Use this idea" }).click();
+  await expect(page.getByLabel("Your sentence")).not.toHaveValue("");
+  await expect(page.getByLabel("Your sentence")).not.toHaveValue(/Tony Montana/);
+  await page.getByRole("button", { name: "Next" }).click();
+  await page.getByRole("button", { name: "Next" }).click();
+  await page.getByRole("button", { name: "Write the song" }).click();
+  await expect(page.getByRole("link", { name: /Open song 1/ })).toBeVisible();
+
+  await page.goto("/ideas");
+  await page.getByRole("button", { name: "Two characters" }).click();
+  await page.getByText("Six examples from the PDF").click();
+  await page.getByRole("button", { name: "Heavy Is The Crown" }).click();
+  await page.getByText("5 album plans").click();
+  await page.getByRole("button", { name: /Start as EP/ }).first().click();
+  await expect(page.getByRole("button", { name: "EP · 6", pressed: true })).toBeVisible();
+  await page.getByRole("button", { name: "Next" }).click();
+  await page.getByRole("button", { name: "Next" }).click();
+  await page.getByRole("button", { name: "Write the song" }).click();
+  await expect(page.getByRole("link", { name: /Song 6:/ })).toBeVisible();
+});
+
 test("six-track EP shows every song after writing", async ({ page }) => {
   test.skip(test.info().project.name !== "desktop", "desktop covers the EP path");
   await page.goto("/start");

@@ -1,10 +1,12 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { ARTISTS } from "@/canon/artists";
 import { PRODUCERS } from "@/canon/producers";
 import { generateTrack } from "@/client/api";
+import { IDEA_DRAFT_KEY } from "@/client/storage";
 import { Shell } from "@/components/shell";
 import { useStudio } from "@/components/studio-context";
 import { createProject } from "@/domain/project";
@@ -31,6 +33,27 @@ export default function StartPage() {
   const [error, setError] = useState("");
   const [filters, setFilters] = useState<TopicFilters>({});
   const [lockedIdea, setLockedIdea] = useState(false);
+  const [trackSeeds, setTrackSeeds] = useState<Array<{ purpose?: string; conflict?: string; scenes?: string }> | null>(null);
+
+  useEffect(() => {
+    const raw = window.sessionStorage.getItem(IDEA_DRAFT_KEY);
+    if (!raw) return;
+    window.sessionStorage.removeItem(IDEA_DRAFT_KEY);
+    try {
+      const draft = JSON.parse(raw) as {
+        sentence?: string;
+        format?: FormatId;
+        topic?: Topic;
+        trackSeeds?: Array<{ purpose?: string; conflict?: string; scenes?: string }>;
+      };
+      if (draft.sentence) setSentence((current) => (current.trim().length >= 8 ? current : draft.sentence ?? current));
+      if (draft.format) setFormat(draft.format);
+      if (draft.topic) setTopic(draft.topic);
+      if (draft.trackSeeds) setTrackSeeds(draft.trackSeeds);
+    } catch {
+      setError("The idea draft could not be read. Your saved songs were not changed.");
+    }
+  }, []);
 
   const artist = ARTISTS.find((item) => item.id === artistId) ?? SIMPLE_ARTISTS[0];
   const producer = PRODUCERS.find((item) => item.id === producerId) ?? PRODUCERS[0];
@@ -53,12 +76,20 @@ export default function StartPage() {
   async function writeSong() {
     setError("");
     const idea = (topic?.centralIdea || sentence).trim();
-    const project = createProject({ sentence: idea, format, instrumental, artistId, producerId });
+    const project = createProject({ sentence: idea, format, instrumental, artistId, producerId, trackSeeds: trackSeeds ?? undefined });
     if (topic) {
       project.topic = { ...topic, centralIdea: idea };
       project.tracks = project.tracks.map((track) => ({
         ...track,
-        topic: { ...track.topic, ...topic, centralIdea: idea, arc: track.arc, conflict: track.topic.conflict },
+        topic: {
+          ...track.topic,
+          ...topic,
+          centralIdea: idea,
+          arc: track.arc,
+          conflict: track.topic.conflict,
+          scenes: track.topic.scenes,
+          purpose: track.topic.purpose,
+        },
       }));
     }
     setBusy(`Writing song 1 of ${project.tracks.length}`);
@@ -117,6 +148,9 @@ export default function StartPage() {
             <button type="button" className="btn btn-primary" disabled={sentence.trim().length < 8} onClick={() => setStep(2)}>
               Next
             </button>
+            <Link className="btn btn-ghost" href="/ideas">
+              Find a song idea
+            </Link>
             <details>
               <summary>More options</summary>
               <div className="stack">

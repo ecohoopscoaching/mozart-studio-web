@@ -241,9 +241,10 @@ export function randomSituation(filters: TopicFilters, seed: number, avoidId?: s
 }
 
 export function mergeLocked(current: Topic, incoming: Topic, locked: Partial<Record<keyof Topic, boolean>>): Topic {
-  const next = { ...incoming };
-  (Object.keys(locked) as (keyof Topic)[]).forEach((key) => {
-    if (locked[key]) next[key] = current[key];
-  });
+  const next: Topic = { ...incoming };
+  for (const key of Object.keys(locked) as (keyof Topic)[]) {
+    if (!locked[key]) continue;
+    Object.assign(next, { [key]: current[key] });
+  }
   return next;
 }

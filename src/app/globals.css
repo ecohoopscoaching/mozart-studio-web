@@ -58,6 +58,7 @@ a { color: inherit; }
   width: min(760px, 100%);
   margin: 0 auto;
   padding: 28px 20px 64px;
+  overflow-wrap: anywhere;
 }
 .eyebrow {
   margin: 0 0 8px;
@@ -93,6 +94,7 @@ h2 { font-size: clamp(2.2rem, 8vw, 3.4rem); }
   text-align: center;
   cursor: pointer;
   width: 100%;
+  overflow-wrap: anywhere;
 }
 .btn-primary {
   background: linear-gradient(180deg, #f8e7b0 0%, #e7c56a 42%, #b6842e 100%);

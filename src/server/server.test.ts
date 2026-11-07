@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import { ARTISTS } from "@/canon/artists";
 import { emptyTopic } from "@/domain/project";
 import { handleGenerate } from "@/server/generateHandler";
+import { handleIdeas } from "@/server/ideasHandler";
 import { healthReport } from "@/server/health";
 import { liveGenerationAllowed } from "@/server/liveGate";
 
@@ -48,6 +49,22 @@ describe("health and live gate", () => {
     expect(response.status).toBe(200);
     expect(response.body.generationMode).toBe("demo");
     expect(response.body.label).toBe("DEMO sample output");
+    expect(response.body.verifiedLive).toBe(false);
+  });
+
+  it("does not call a provider for character ideas", async () => {
+    const response = await handleIdeas(
+      new Request("http://studio.local/api/ideas", {
+        method: "POST",
+        body: JSON.stringify({ mode: "single", characterIds: ["batman"], requestLive: true }),
+      }),
+      { LIVE_GENERATION: "enabled", GEMINI_API_KEY: "present-but-unused", GENERATION_ACCESS_TOKEN: "secret-token" },
+      async () => {
+        throw new Error("Ideas must not call Gemini");
+      },
+    );
+    expect(response.status).toBe(200);
+    expect(response.body.generationMode).toBe("demo");
     expect(response.body.verifiedLive).toBe(false);
   });
 

@@ -18,6 +18,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
 export function Footer() {
   return (
     <nav className="footer-links" aria-label="More">
+      <Link href="/ideas">Find a song idea</Link>
       <Link href="/help">How saving and demo mode work</Link>
       <Link href="/personas">Voice and producer library</Link>
     </nav>
