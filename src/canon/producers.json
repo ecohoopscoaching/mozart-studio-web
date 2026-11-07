@@ -1,0 +1,614 @@
+[
+  {
+    "id": "soulswitch",
+    "num": 0,
+    "name": "SOULSWITCH",
+    "tag": "Soul-to-trap late beat switch (Mozart Producer Persona)",
+    "internal": false,
+    "foundation": "",
+    "desc": "SOULSWITCH is a hip-hop producer known for the late beat switch. Every track rides early-2000s soul-sample warmth at 80–92 BPM for the first full minute: pitched-up soul vocal or brass chops, vinyl crackle, Rhodes or organ, a walking bassline, and punchy live boom-bap drums. Just after 1:00 a tape-stop, low-pass sweep, or CD-skip drops into dead silence, then explodes into hard modern trap at 136–145 BPM: the same sample pitched down dark, distorted 808 slides, hard kicks, sharp snares, rolling triplet hats, and minor synth bells. Wide, punchy mixes that always leave room for a lead rapper."
+  },
+  {
+    "id": "protege",
+    "num": 58,
+    "name": "THE PROTEGE",
+    "tag": "Ghost's official producer",
+    "internal": false,
+    "foundation": "",
+    "desc": "Mid-90s Los Angeles dark minor-key rap at its real tempo, 128-140 BPM. Eerie, cold, after- midnight minor-key music that drives and keeps moving. Steady straight 8th hats at the real BPM, once-per-bar snare on beat 3, off-beat kick pushes, held pedal bass, dark minor chords holding a bar or two, strong staccato played figure, rumbling low piano, tape-warm mellotron strings. Full punchy drums (not trap), deep clean sub, modern loudness. Minor mode every time."
+  },
+  {
+    "id": "1-the-architect",
+    "num": 1,
+    "name": "THE ARCHITECT",
+    "tag": "",
+    "internal": false,
+    "foundation": "Dr. Dre × DJ Premier",
+    "desc": "Raw contemporary boom-bap with brutally clean drums, dusty soul fragments, chopped jazz textures, warm bass guitar and subtle vinyl grit. Hard kick, cracking dry snare, tiny timing imperfections, occasional turntable accents. Minimal but muscular. Premium modern mix with old-school bones."
+  },
+  {
+    "id": "2-the-nightshift",
+    "num": 2,
+    "name": "THE NIGHTSHIFT",
+    "tag": "",
+    "internal": false,
+    "foundation": "Dr. Dre × DJ U-Neek",
+    "desc": "Dark melodic hip-hop/R&B with heavy West Coast low end, cinematic tension and wide negative space. Deep moving bass, moody synths, sparse piano notes, hard modern drums and eerie melodic details. Night-drive energy. Expensive, restrained and dangerous."
+  },
+  {
+    "id": "3-velvet-knife",
+    "num": 3,
+    "name": "VELVET KNIFE",
+    "tag": "",
+    "internal": false,
+    "foundation": "Timbaland × D’Mile",
+    "desc": "Sensual alternative R&B with strange rhythmic details and a slightly dangerous edge. Warm keys, bent synth textures, unexpected percussion, deep controlled bass and sparse guitar colors. Smooth enough for radio but weird enough to feel unmistakable."
+  },
+  {
+    "id": "4-glasshouse",
+    "num": 4,
+    "name": "GLASSHOUSE",
+    "tag": "",
+    "internal": false,
+    "foundation": "Noah “40” Shebib × Frank Dukes",
+    "desc": "Extremely sparse emotional R&B. Fragile piano or processed keys, distant atmospheric textures, soft sub bass, restrained drums and lots of silence. Intimate, exposed and slightly cold. Every sound matters. Huge vocal pocket."
+  },
+  {
+    "id": "5-motor-city-saint",
+    "num": 5,
+    "name": "MOTOR CITY SAINT",
+    "tag": "",
+    "internal": false,
+    "foundation": "J Dilla × Raphael Saadiq",
+    "desc": "Detroit-rooted neo-soul and hip-hop with loose human drums, warm electric bass, Rhodes, gospel-inflected harmony and live-feeling instrumentation. Slightly behind the beat, imperfect and soulful. Feels played by musicians rather than programmed."
+  },
+  {
+    "id": "6-heatcheck",
+    "num": 6,
+    "name": "HEATCHECK",
+    "tag": "",
+    "internal": false,
+    "foundation": "Dr. Dre × DJ Mustard",
+    "desc": "Clean West Coast bounce with thick bass, crisp drums, bright keyboards, funky synth leads and laid-back pocket. Minimal arrangement, strong groove and plenty of space between sounds. Sunny confidence without becoming cheesy."
+  },
+  {
+    "id": "7-noir",
+    "num": 7,
+    "name": "NOIR",
+    "tag": "",
+    "internal": false,
+    "foundation": "Metro Boomin × Mike Dean",
+    "desc": "Cinematic dark trap with ominous synth beds, distorted textures, deep 808s, sharp percussion and dramatic harmonic movement. Tension should build gradually. Minimal melody, massive atmosphere and expensive sound design."
+  },
+  {
+    "id": "8-chrome",
+    "num": 8,
+    "name": "CHROME",
+    "tag": "",
+    "internal": false,
+    "foundation": "Stargate × D’Mile",
+    "desc": "Highly polished contemporary R&B with elegant chords, clean drums, glossy synth textures and controlled bass. Strong melodic architecture and clear sections. Radio-ready without sounding generic. Sophisticated, emotional and extremely clean."
+  },
+  {
+    "id": "9-gravity",
+    "num": 9,
+    "name": "GRAVITY",
+    "tag": "",
+    "internal": false,
+    "foundation": "Metro Boomin × WondaGurl",
+    "desc": "Heavy modern trap built around enormous sliding 808s, dark melodic loops, hard kicks, sharp hats and eerie atmospheric layers. Slow-moving harmony with aggressive rhythmic movement underneath. Dense low end but open vocal space."
+  },
+  {
+    "id": "10-the-drumline",
+    "num": 10,
+    "name": "THE DRUMLINE",
+    "tag": "",
+    "internal": false,
+    "foundation": "Pharrell × Timbaland",
+    "desc": "Rhythm-first R&B/hip-hop driven by unusual percussion. Syncopated kicks, hand percussion, rimshots, claps, toms, found sounds and tiny rhythmic surprises. Minimal bass and melodic parts. The drums themselves become the hook."
+  },
+  {
+    "id": "11-blue-hour",
+    "num": 11,
+    "name": "BLUE HOUR",
+    "tag": "",
+    "internal": false,
+    "foundation": "Noah “40” Shebib × D’Mile",
+    "desc": "Late-night emotional R&B with warm Rhodes, muted guitar, deep soft sub bass, dry drums and hazy atmospheric details. Intimate and vulnerable, never overly cinematic. Slow-burning groove with lots of breathing room."
+  },
+  {
+    "id": "12-mad-scientist",
+    "num": 12,
+    "name": "MAD SCIENTIST",
+    "tag": "",
+    "internal": false,
+    "foundation": "Kanye West × Timbaland",
+    "desc": "Experimental hip-hop that still grooves. Chopped samples, strange vocal fragments, off-center percussion, pitch manipulation, unexpected silence, distorted bass and abrupt arrangement changes. Weird ideas made catchy rather than weird for the sake of it."
+  },
+  {
+    "id": "13-raw-silk",
+    "num": 13,
+    "name": "RAW SILK",
+    "tag": "",
+    "internal": false,
+    "foundation": "Carter Lang × Dijon",
+    "desc": "Organic modern soul with imperfect drums, close-miked guitar, warm bass, loose piano or Rhodes and human room texture. Intimate, messy and tactile. Avoid over-quantizing. Sounds like musicians discovering the song together in the studio."
+  },
+  {
+    "id": "14-hitmaker-j",
+    "num": 14,
+    "name": "HITMAKER J",
+    "tag": "",
+    "internal": false,
+    "foundation": "Jermaine Dupri × Hit-Boy",
+    "desc": "Hook-first R&B/hip-hop with clean bouncing drums, memorable keyboard motifs, warm bass and simple chord movement. Immediate groove, strong chorus lift and commercial song structure. Fun, sharp and built for replay."
+  },
+  {
+    "id": "15-afterglow",
+    "num": 15,
+    "name": "AFTERGLOW",
+    "tag": "",
+    "internal": false,
+    "foundation": "Kanye West × Metro Boomin",
+    "desc": "Soulful sample-based hip-hop fused with modern trap drums. Warm chopped vocals, pitched soul fragments, emotional piano, thick 808s and crisp hats. Nostalgic harmony with contemporary low-end impact."
+  },
+  {
+    "id": "16-the-maestro",
+    "num": 16,
+    "name": "THE MAESTRO",
+    "tag": "",
+    "internal": false,
+    "foundation": "Quincy Jones × DJ Premier",
+    "desc": "Musically rich hip-hop with sophisticated harmony, real instrumentation and hard foundational drums. Piano, strings, horns, bass guitar and tasteful orchestration should interact with gritty rhythmic elements. Elegant without becoming theatrical."
+  },
+  {
+    "id": "17-soul-runner",
+    "num": 17,
+    "name": "SOUL RUNNER",
+    "tag": "",
+    "internal": false,
+    "foundation": "9th Wonder × London on da Track",
+    "desc": "Soul-sample hip-hop with Southern movement. Chopped gospel or soul textures, swinging drums, warm bass and modern 808 reinforcement. Emotional musicality on top, street rhythm underneath. Melodic but still knocks."
+  },
+  {
+    "id": "18-dr-dre",
+    "num": 18,
+    "name": "DR. DRE",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Monumental minimalist hip-hop. Huge dry drums, deep precise bass, sparse piano or synth motifs, subtle orchestral tension and ruthless use of silence. Every sound should hit hard and clean. Wide stereo image, powerful low end and almost no clutter."
+  },
+  {
+    "id": "19-pharrell",
+    "num": 19,
+    "name": "PHARRELL",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Playful minimalist funk and hip-hop with unusual syncopation. Dry punchy drums, rubbery bass, clipped guitar, quirky keyboard sounds, hand percussion and unexpected rhythmic gaps. Bright, youthful and instantly physical without relying on huge instrumentation."
+  },
+  {
+    "id": "20-dj-quik",
+    "num": 20,
+    "name": "DJ QUIK",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Musical West Coast funk with swinging drums, elastic bass guitar, warm electric piano, talkbox- like synth colors, bright percussion and jazzy chord movement. Smooth enough to cruise to but rhythmically sophisticated underneath."
+  },
+  {
+    "id": "21-dj-premier",
+    "num": 21,
+    "name": "DJ PREMIER",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Raw sample-driven boom-bap with chopped jazz or soul fragments, hard swinging kick and snare, gritty texture and short musical loops. Sparse bass and strategic turntable-style cuts. Tough, hypnotic and rhythmically precise."
+  },
+  {
+    "id": "22-quincy-jones",
+    "num": 22,
+    "name": "QUINCY JONES",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Rich live arrangement with sophisticated jazz and soul harmony. Real bass, piano, guitar, horns, strings and percussion arranged with discipline. Dynamic sections, counter-melodies and musical conversation between instruments. Lush but never overcrowded."
+  },
+  {
+    "id": "23-9th-wonder",
+    "num": 23,
+    "name": "9TH WONDER",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Warm soulful boom-bap built from chopped soul and gospel textures. Crunchy drums, emotional vocal samples, thick bass and simple hypnotic loops. Dusty and heartfelt with enough swing to feel human."
+  },
+  {
+    "id": "24-dj-u-neek",
+    "num": 24,
+    "name": "DJ U-NEEK",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Dark smoked-out melodic hip-hop with creeping basslines, eerie synths, melancholic chords and slow West Coast-influenced funk. Somber atmosphere with smooth musical movement underneath hard street drums. Haunting rather than horror-movie theatrical."
+  },
+  {
+    "id": "25-carter-lang",
+    "num": 25,
+    "name": "CARTER LANG",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Warm contemporary soul with organic drums, live bass, textured keyboards, subtle guitar, dusty ambience and adventurous chord movement. Detailed but understated. Modern musicianship with homemade texture and deep pocket."
+  },
+  {
+    "id": "26-dijon",
+    "num": 26,
+    "name": "DIJON",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Raw intimate alternative soul. Loose drums, distorted room sound, imperfect guitar, piano, strange microphone textures and spontaneous arrangement changes. Emotional and tactile. Keep mistakes, breaths and rough edges rather than polishing them away."
+  },
+  {
+    "id": "27-just-blaze",
+    "num": 27,
+    "name": "JUST BLAZE",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Huge triumphant hip-hop with aggressive drums, dramatic soul chops, powerful piano, brass or orchestral accents and explosive section changes. Stadium energy without losing grit. Builds should feel earned and choruses should feel massive."
+  },
+  {
+    "id": "28-jermaine-dupri",
+    "num": 28,
+    "name": "JERMAINE DUPRI",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Smooth, infectious R&B/hip-hop bounce with tight drum-machine grooves, warm bass, catchy keyboard riffs and simple memorable harmony. Strong rhythmic hooks, clean verses and obvious chorus lift. Built for radio and movement."
+  },
+  {
+    "id": "29-timbaland",
+    "num": 29,
+    "name": "TIMBALAND",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Futuristic rhythm-first R&B with strange percussion, unexpected drum placement, vocal-like sound effects, deep bass and sparse atmospheric chords. Lots of empty space. The groove should feel slightly unpredictable while remaining impossible not to move to."
+  },
+  {
+    "id": "30-hit-boy",
+    "num": 30,
+    "name": "HIT-BOY",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Contemporary hip-hop that bridges soulful musicianship and modern drums. Hard kicks, sharp snares, warm bass, chopped textures, piano or synth motifs and arrangement changes that keep evolving. Clean, expensive and rapper/singer friendly."
+  },
+  {
+    "id": "31-mike-will-made-it",
+    "num": 31,
+    "name": "MIKE WILL MADE-IT",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Massive Southern melodic trap with booming 808s, sparse hypnotic melodies, hard claps, rolling hats and huge negative space. Simple musical idea, enormous low end and addictive bounce. Designed around a memorable rhythmic pocket."
+  },
+  {
+    "id": "32-kanye-west",
+    "num": 32,
+    "name": "KANYE WEST",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Bold sample-driven hip-hop with pitched soul textures, gospel harmony, unusual drum choices, emotional piano and fearless arrangement shifts. Combine raw imperfection with ambitious musical scale. Every section should introduce a new emotional angle."
+  },
+  {
+    "id": "33-london-on-da-track",
+    "num": 33,
+    "name": "LONDON ON DA TRACK",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Melodic Atlanta trap with fluid 808 movement, airy keys, bell-like melodies, crisp hats and bouncy drums. Emotional chord progressions over energetic low end. Smooth enough for R&B vocals but still unmistakably Southern."
+  },
+  {
+    "id": "34-boi-1da",
+    "num": 34,
+    "name": "BOI-1DA",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Dark spacious contemporary hip-hop with hard punchy drums, controlled 808s, haunting melodic fragments, atmospheric pads and restrained arrangement. Strong knock without excess layers. Moody, modern and very vocal-friendly."
+  },
+  {
+    "id": "35-d-mile",
+    "num": 35,
+    "name": "D'MILE",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Sophisticated modern R&B and soul with live drums, rich bass guitar, Rhodes, subtle guitar, layered harmony and beautiful chord extensions. Deep pocket, classic musicianship and contemporary sonic detail. Romantic without becoming sugary."
+  },
+  {
+    "id": "36-reelz",
+    "num": 36,
+    "name": "REELZ",
+    "tag": "house default",
+    "internal": false,
+    "foundation": "",
+    "desc": "Contemporary Soul Glider house sound. Warm R&B harmony, hip-hop pocket, deep controlled bass, soulful piano or Rhodes, restrained modern drums and subtle live instrumentation. Emotional but masculine, melodic but never soft, with a large clean pocket for high-tenor vocals and falsetto."
+  },
+  {
+    "id": "37-dj-mustard",
+    "num": 37,
+    "name": "DJ MUSTARD",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Minimal West Coast club bounce. Snappy claps, simple aggressive kicks, bouncing bass, bright repetitive keyboard motif and lots of open space. Extremely simple on purpose. Immediate rhythm, infectious repetition and strong dance-floor movement."
+  },
+  {
+    "id": "38-streetrunnerz",
+    "num": 38,
+    "name": "STREETRUNNERZ",
+    "tag": "",
+    "internal": false,
+    "foundation": "",
+    "desc": "Dramatic soulful street hip-hop with hard drums, emotional piano, chopped vocal textures, orchestral accents and dark cinematic undertones. Big emotional lift without losing the grime. Built for powerful storytelling and anthemic hooks."
+  },
+  {
+    "id": "39-velvet-architect",
+    "num": 39,
+    "name": "VELVET ARCHITECT",
+    "tag": "",
+    "internal": false,
+    "foundation": "",
+    "desc": "Cinematic luxury soul built around live bass, warm strings, jazz-influenced piano chords, expressive horns and lush R&B instrumentation. Slow dynamic development, elegant transitions and rich harmonic movement. Grand and emotional while leaving the lead vocal completely exposed."
+  },
+  {
+    "id": "40-scott-storch",
+    "num": 40,
+    "name": "SCOTT STORCH",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Single producer. Piano-led melodies, dramatic chord progressions, crisp drums and glossy hip- hop/R&B production."
+  },
+  {
+    "id": "41-the-alchemist",
+    "num": 41,
+    "name": "THE ALCHEMIST",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Single producer. Dusty loops, grimy textures, unusual samples, hypnotic repetition and understated drums."
+  },
+  {
+    "id": "42-cool-dre",
+    "num": 42,
+    "name": "COOL & DRE",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Production team. Cinematic Miami rap, soulful melodies, big drums and polished street records."
+  },
+  {
+    "id": "43-infamous",
+    "num": 43,
+    "name": "INFAMOUS",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Single producer. Dark cinematic hip-hop, moody keys, hard drums and dramatic atmosphere."
+  },
+  {
+    "id": "44-scoop-deville",
+    "num": 44,
+    "name": "SCOOP DEVILLE",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Single producer. Hard West Coast drums, sample flips, funky bass and aggressive bounce."
+  },
+  {
+    "id": "45-1500-or-nothin",
+    "num": 45,
+    "name": "1500 OR NOTHIN’",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Production band. Live-band hip-hop/R&B, strong musicianship, big arrangements and gospel/funk/soul energy."
+  },
+  {
+    "id": "46-the-storyteller",
+    "num": 46,
+    "name": "THE STORYTELLER",
+    "tag": "",
+    "internal": false,
+    "foundation": "Alan Menken × Lin-Manuel Miranda",
+    "desc": "Mature, soulful animated-film musical architecture with emotional melodies, theatrical harmony, rhythmic storytelling, orchestral movement and huge cinematic finales."
+  },
+  {
+    "id": "47-the-wondermaker",
+    "num": 47,
+    "name": "THE WONDERMAKER",
+    "tag": "",
+    "internal": false,
+    "foundation": "Alan Menken × Robert Lopez",
+    "desc": "Bright children’s animated-musical energy with playful orchestration, sing-along hooks, funny character moments, magical transitions and uplifting finales."
+  },
+  {
+    "id": "48-havana-heat",
+    "num": 48,
+    "name": "HAVANA HEAT",
+    "tag": "",
+    "internal": false,
+    "foundation": "Emilio Estefan × Juan Formell",
+    "desc": "Cuban salsa and timba: piano montunos, tumbao bass, Afro-Cuban percussion, brass punches, call-and-response and explosive gear changes."
+  },
+  {
+    "id": "49-salsa-royale",
+    "num": 49,
+    "name": "SALSA ROYALE",
+    "tag": "",
+    "internal": false,
+    "foundation": "Sergio George × Willie Colón",
+    "desc": "Straight salsa: piano montunos, tumbao bass, congas, bongos, timbales, brass, coro/pregón and a steady dance-floor swing."
+  },
+  {
+    "id": "50-bryan-michael-cox",
+    "num": 50,
+    "name": "BRYAN-MICHAEL COX",
+    "tag": "",
+    "internal": true,
+    "foundation": "",
+    "desc": "Single producer. Polished emotional R&B with piano, sophisticated progressions, clean drums, lush vocal space, strong bridges and radio-ready slow-to-midtempo production."
+  },
+  {
+    "id": "51-velvet-pulse",
+    "num": 51,
+    "name": "VELVET PULSE",
+    "tag": "",
+    "internal": true,
+    "foundation": "Kaytranada × D’Mile",
+    "desc": "Neo-soul × house × R&B: swung dance architecture, warm chords, live-feeling bass, soulful keys, glossy texture and deep pocket."
+  },
+  {
+    "id": "52-fourth-quarter",
+    "num": 52,
+    "name": "FOURTH QUARTER",
+    "tag": "",
+    "internal": true,
+    "foundation": "Mike WiLL Made-It × Drumma Boy",
+    "desc": "Southern trap × drumline: huge 808s, marching snares, bass-drum cadences, brass punches, chants, call-and-response and halftime momentum."
+  },
+  {
+    "id": "53-blue-flame",
+    "num": 53,
+    "name": "BLUE FLAME",
+    "tag": "",
+    "internal": true,
+    "foundation": "Dan Auerbach × Raphael Saadiq",
+    "desc": "Raw blues guitar and amp grit lead the architecture; warm soul bass and a deep R&B pocket add body and movement."
+  },
+  {
+    "id": "54-pressure-point",
+    "num": 54,
+    "name": "PRESSURE POINT",
+    "tag": "",
+    "internal": true,
+    "foundation": "Southside × Mike WiLL Made-It",
+    "desc": "Hard trap drums and heavy 808s lead the architecture; memorable melodic phrases and bigger hook moments add scale."
+  },
+  {
+    "id": "55-the-slow-burn",
+    "num": 55,
+    "name": "THE SLOW BURN",
+    "tag": "",
+    "internal": true,
+    "foundation": "Bryan-Michael Cox × D’Mile",
+    "desc": "Emotional piano and grown R&B songcraft lead the architecture; rich chord voicings and a live- feeling groove add depth."
+  },
+  {
+    "id": "56-bare-wire",
+    "num": 56,
+    "name": "BARE WIRE",
+    "tag": "",
+    "internal": true,
+    "foundation": "D’Mile × Dan Auerbach",
+    "desc": "Super-minimal R&B for heavy, stripped-down R&B and blues songs. Wide-open vocal space leads; a few gritty, aching blues guitar notes add raw texture."
+  },
+  {
+    "id": "57-blue-pressure",
+    "num": 57,
+    "name": "BLUE PRESSURE",
+    "tag": "",
+    "internal": true,
+    "foundation": "Mike WiLL Made-It × Dan Auerbach",
+    "desc": "Trap blues for anger, grief, and holding-it-together nights. Slow heavy 808s, hard kicks, and sparse drums carry one gritty bent-note guitar riff with worn amp noise. Keep it lean: no busy hi- hats, no long solo, and open upper-midrange space for bright tenor and falsetto."
+  },
+  {
+    "id": "59-stargate-x-carter-lang",
+    "num": 59,
+    "name": "STARGATE x CARTER LANG",
+    "tag": "",
+    "internal": true,
+    "foundation": "Stargate × Carter Lang",
+    "desc": "Scandinavian pop-R&B precision warmed by homemade soul. Clean melodic architecture, glossy chords, and sharp song structure fused with organic drums, dusty ambience, textured keys, and deep pocket. Polished but unmistakably human."
+  },
+  {
+    "id": "60-dr-dre-x-9th-wonder",
+    "num": 60,
+    "name": "DR. DRE x 9TH WONDER",
+    "tag": "",
+    "internal": true,
+    "foundation": "Dr. Dre × 9th Wonder",
+    "desc": "Monumental minimalism with a dusty soul heart. Huge dry drums, deep precise bass, and ruthless use of silence under chopped soul and gospel textures, crunchy swing, and emotional vocal fragments. Sparse, hard-hitting, and heartfelt — every sound earns its place."
+  },
+  {
+    "id": "61-the-charmer",
+    "num": 61,
+    "name": "THE CHARMER",
+    "tag": "from \"The One\" — smooth 90s R&B love-song sample flips",
+    "internal": false,
+    "foundation": "",
+    "desc": "Smooth sample-based hip-hop built from 90s R&B love songs: sweet female vocal harmonies and soft keys as the emotional spine, the dug hook woven through a warm confident groove. Modern clean drums with punchy kick, soft cracking snare, and steady hats; warm round bass that follows the sample. Polished, glossy, romantic but never soft — slow-jam DNA rebuilt for a rapper, with open verses and a sweeter hook lift. Every track digs a different love song and finds a new pocket. No trap rolls, no dark menace, no dusty grit."
+  },
+  {
+    "id": "62-the-relic",
+    "num": 62,
+    "name": "THE RELIC",
+    "tag": "from \"James Freestyle\" — vintage-sampler old-school purist",
+    "internal": false,
+    "foundation": "",
+    "desc": "Raw boom-bap made like it came off a vintage hardware sampler. Chopped obscure 1970s/80s funk-soul records, grainy and warm, with the old machine's grit left in the chops. Hard dry drums with swing: punchy kick, cracking snare on the backbeat, no polish. Bass often pulled from the same record. Minimal, relentless freestyle pocket — all knock, no frills. Every track starts from a different forgotten record and a fresh chop pattern. No modern sheen, no trap rolls, no pop gloss."
+  },
+  {
+    "id": "63-the-preacher",
+    "num": 63,
+    "name": "THE PREACHER",
+    "tag": "from \"Mission Statement\" — haunting looped-voice conscience beats",
+    "internal": false,
+    "foundation": "",
+    "desc": "Modern loop-based hip-hop built around one haunting chopped vocal phrase that loops like a conscience and sets the tone from the first second. Sparse dark piano around the loop, deep simple bass, modern minimal drums — hard kick, sharp snare, restrained hats, lots of open space. Somber and hungry; short statement energy that hits and gets out. Every track finds a new vocal phrase and a new sparse bed under it. No bright party energy, no busy arrangement, no trap hat rolls."
+  },
+  {
+    "id": "64-the-testifier",
+    "num": 64,
+    "name": "THE TESTIFIER",
+    "tag": "from \"This Can't Be Life\" — pitched-up soul pain into celebration",
+    "internal": false,
+    "foundation": "",
+    "desc": "Soul-sample hip-hop that pitches vintage soul voices up until pain and celebration live in the same loop. Urgent soaring singer over swelling strings, hard classic drums with swing (big punchy kick, cracking snare, gritty hats), warm rolling bass under the strings. Verses leave room to confess; hooks swell to the singer's full cry. Every track digs a different soul record and finds a new pitch/chop that still carries that triumph. No cold synths, no trap rolls, no empty gloss."
+  },
+  {
+    "id": "65-the-trophy",
+    "num": 65,
+    "name": "THE TROPHY",
+    "tag": "from \"27 Summers\" — victory-lap trap muscle under soul",
+    "internal": false,
+    "foundation": "",
+    "desc": "Victory-lap hip-hop: trap muscle under soul. Deep confident 808 slides, hard snares, quick restrained hats, and a delicate piano or melodic line carrying tension — then a seamless flip into a triumphant soul-vocal sample section that keeps the same energy in new light, never a hard stop. Short blistering winning energy. Every track builds a new trap bed and digs a new soul flip. No dusty boom-bap drums, no gloomy minor-key mood, no jarring switch."
+  },
+  {
+    "id": "66-the-drum-major",
+    "num": 66,
+    "name": "THE DRUM MAJOR",
+    "tag": "from \"Damage Control\" — parade horns and marching-band drums",
+    "internal": false,
+    "foundation": "",
+    "desc": "Marching-band hip-hop anthem: spirited blaring horns as fanfare, marching snare rolls and cadences under a hard punchy kick and cracking snare, simple driving bass that keeps the march moving. Verses leave room for rappers trading bars; hooks explode with the full horn section. Stadium energy, street-parade soul. Every track writes a new horn line and a new cadence pattern. No dark brooding, no trap minimalism, no quiet moments."
+  },
+  {
+    "id": "67-the-archivist",
+    "num": 67,
+    "name": "THE ARCHIVIST",
+    "tag": "crate-digging sample craftsman (essence across the song-six lanes)",
+    "internal": false,
+    "foundation": "",
+    "desc": "Sample-first hip-hop producer who digs forgotten records and builds a fresh beat from whatever the crate gives that day — obscure soul, funk, 90s R&B, gospel, spoken word, or brass. Hardware-sampler grit or a clean modern flip, whichever serves the dig. Always leaves a clear pocket for a lead rapper. Signature moves he can reach for (never all at once): sweet R&B love-song flips, raw boom-bap chops, one haunting looped voice, pitched-up soul that turns pain into celebration, trap muscle under a soul flip, or parade horns with marching drums. Each Create is a new dig and a new beat; only the crate-digger ear stays the same. No stock loops, no copy-paste arrangement, no same sample twice."
+  }
+]
